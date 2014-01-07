@@ -4,13 +4,15 @@
     {
       "type": "paragraph",
       "id": "b748d480a47c877e",
-      "text": "This calculator showed the feasibility of numerical calculations expressed in an alternate markup. Its derived from an earlier awk script now in coffeescript.  [https://github.com/WardCunningham/Smallest-Federated-Wiki/blob/master/client/plugins/calculator.coffee github]"
+      "text": "This calculator showed the feasibility of numerical calculations expressed in an alternate markup. Its derived from an earlier awk script now in coffeescript.  [https://github.com/fedwiki/wiki-plugin-calculator github]"
     },
     {
       "type": "calculator",
       "id": "7904ee4f9c2036ae",
       "text": "Jackson Hole Expenses\nFebruary, '81\n\nCal Diller ...\n\n71.25  Cowboy Steak House\n24  M/M\n26  Mexican\n60  Lift Tickets\n13.50  Pizza\n-------\nCAL\n\nBill Pooley ...\n\n48 * 3  Lift Tickets\n14.04  Breakfast\n368.16  Room\n29.31  Drinks\n-------\nBILL\n\nWard Cunningham ...\n\n14.73  Gas\n14.2\n13.86\n17\n14.5\n13.76\n-------\nGAS  Total Gas\n\n15  Blue Lion\n48  Lift\n30.55  Anthonys\n69.24  Alpenhof\nGAS  Total Gas\n-------\nWARD\n\n\nTotal Shared Expenses ...\n\nCAL  Cal Diller\nBILL  Bill Pooley\nWARD  Ward Cunningham\n-------\nTOTAL / 3\n-------\nSHARE  Individual Share\n\n\nIndividual Balances ...\n\nBILL  Bill's Expenses\nSHARE DB\n-------\nSUM\n3.86  Telephone, Cal\n6.01  Telephone, Ward\n-------\nDB  Due Bill\n\n\nCAL  Cal's Expenses\nSHARE DB\n-------\nSUM\n3.86 DB  Telephone\n-------\nDC  Due Cal\n\n\nWARD  Ward's Expenses\nSHARE DB\n-------\nSUM\n6.01 DB  Telephone\n-------\nDW  Due Ward\n\n\nDoublechecking ...\n\nDB\nDC\nDW\n-------\nERROR  Unaccounted Funds\n",
-      "data": []
+      "data": [
+        "last"
+      ]
     },
     {
       "type": "paragraph",
@@ -111,6 +113,16 @@
       "after": "68e40426c4013222",
       "id": "c60a0f9d368d082c",
       "date": 1362960337141
+    },
+    {
+      "type": "edit",
+      "id": "b748d480a47c877e",
+      "item": {
+        "type": "paragraph",
+        "id": "b748d480a47c877e",
+        "text": "This calculator showed the feasibility of numerical calculations expressed in an alternate markup. Its derived from an earlier awk script now in coffeescript.  [https://github.com/fedwiki/wiki-plugin-calculator github]"
+      },
+      "date": 1389096102855
     }
   ]
 }

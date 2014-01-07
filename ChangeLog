@@ -1,5 +1,5 @@
-Wiki Plugin - activity
-======================
+Wiki Plugin - calculator
+========================
 
 0.1.0
   date: 2013-11-20
@@ -7,4 +7,9 @@ Wiki Plugin - activity
     - Refactored from wiki/client/plugins into individual repo.
     - Check for changes against Smallest-Federated-Wiki repo version
       + two repo's have the same code.
+
+0.1.1
+  date: 2014-01-07
+  changes:
+    - migrate to fedwiki GitHub organization
 

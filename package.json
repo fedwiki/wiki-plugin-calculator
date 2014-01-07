@@ -35,10 +35,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/paul90/wiki-plugin-calculator.git"
+    "url": "https://github.com/fedwiki/wiki-plugin-calculator.git"
   },
   "bugs": {
-    "url": "https://github.com/paul90/wiki-plugin-calculator/issues"
+    "url": "https://github.com/fedwiki/wiki-plugin-calculator/issues"
   },
   "engines": {
     "node": "0.10"
