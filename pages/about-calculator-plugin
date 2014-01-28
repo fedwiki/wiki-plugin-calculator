@@ -4,7 +4,7 @@
     {
       "type": "paragraph",
       "id": "b748d480a47c877e",
-      "text": "This calculator showed the feasibility of numerical calculations expressed in an alternate markup. Its derived from an earlier awk script now in coffeescript.  [https://github.com/fedwiki/wiki-plugin-calculator github]"
+      "text": "This calculator showed the feasibility of numerical calculations expressed in an alternate markup. Its derived from an earlier awk script now in coffeescript.  [https://github.com/fedwiki/wiki-plugin-calculator/blob/master/client/calculator.coffee github]"
     },
     {
       "type": "calculator",
@@ -120,9 +120,9 @@
       "item": {
         "type": "paragraph",
         "id": "b748d480a47c877e",
-        "text": "This calculator showed the feasibility of numerical calculations expressed in an alternate markup. Its derived from an earlier awk script now in coffeescript.  [https://github.com/fedwiki/wiki-plugin-calculator github]"
+        "text": "This calculator showed the feasibility of numerical calculations expressed in an alternate markup. Its derived from an earlier awk script now in coffeescript.  [https://github.com/fedwiki/wiki-plugin-calculator/blob/master/client/calculator.coffee github]"
       },
-      "date": 1389096102855
+      "date": 1390892343437
     }
   ]
 }
