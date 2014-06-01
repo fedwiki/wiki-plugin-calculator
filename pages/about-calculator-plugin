@@ -4,7 +4,7 @@
     {
       "type": "paragraph",
       "id": "b748d480a47c877e",
-      "text": "This calculator showed the feasibility of numerical calculations expressed in an alternate markup. Its derived from an earlier awk script now in coffeescript.  [https://github.com/fedwiki/wiki-plugin-calculator/blob/master/client/calculator.coffee github]"
+      "text": "This calculator showed the feasibility of numerical calculations expressed in an alternate markup. Its derived from an earlier awk script now in coffeescript.  [https://github.com/fedwiki/wiki-plugin-calculator/blob/master/client/calculator.coffee#L11-L26 github]"
     },
     {
       "type": "calculator",
@@ -22,7 +22,7 @@
     {
       "type": "paragraph",
       "id": "c60a0f9d368d082c",
-      "text": "Pretty soon I realized that if I could just sum the groups and then bring those sums into other groups then I'd pretty much have it. I wrote a small AWK script to do just that and print a report. I finished the script and the report together. See the script [http://c2.com/doc/expense here]."
+      "text": "Pretty soon I realized that if I could just sum the groups and then bring those sums into other groups then I'd pretty much have it. I wrote a small AWK script to do just that and print a report. I finished the script and the report together. [http://c2.com/doc/expense webpage]."
     }
   ],
   "journal": [
@@ -123,6 +123,36 @@
         "text": "This calculator showed the feasibility of numerical calculations expressed in an alternate markup. Its derived from an earlier awk script now in coffeescript.  [https://github.com/fedwiki/wiki-plugin-calculator/blob/master/client/calculator.coffee github]"
       },
       "date": 1390892343437
+    },
+    {
+      "type": "edit",
+      "id": "b748d480a47c877e",
+      "item": {
+        "type": "paragraph",
+        "id": "b748d480a47c877e",
+        "text": "This calculator showed the feasibility of numerical calculations expressed in an alternate markup. Its derived from an earlier awk script now in coffeescript.  [https://github.com/fedwiki/wiki-plugin-calculator/blob/master/client/calculator.coffee#L11-L26 github]"
+      },
+      "date": 1401549437952
+    },
+    {
+      "type": "edit",
+      "id": "c60a0f9d368d082c",
+      "item": {
+        "type": "paragraph",
+        "id": "c60a0f9d368d082c",
+        "text": "Pretty soon I realized that if I could just sum the groups and then bring those sums into other groups then I'd pretty much have it. I wrote a small AWK script to do just that and print a report. I finished the script and the report together.[http://c2.com/doc/expense webpage]."
+      },
+      "date": 1401549514054
+    },
+    {
+      "type": "edit",
+      "id": "c60a0f9d368d082c",
+      "item": {
+        "type": "paragraph",
+        "id": "c60a0f9d368d082c",
+        "text": "Pretty soon I realized that if I could just sum the groups and then bring those sums into other groups then I'd pretty much have it. I wrote a small AWK script to do just that and print a report. I finished the script and the report together. [http://c2.com/doc/expense webpage]."
+      },
+      "date": 1401549520453
     }
   ]
 }
