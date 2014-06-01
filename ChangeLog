@@ -18,3 +18,7 @@ Wiki Plugin - calculator
   changes:
     - update about page
 
+0.1.3
+  date: 2014-06-01
+  changes:
+    - update devDependencies
