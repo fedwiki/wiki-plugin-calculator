@@ -1,3 +1,10 @@
+###
+ * Federated Wiki : Calculator Plugin
+ *
+ * Licensed under the MIT license.
+ * https://github.com/fedwiki/wiki-plugin-calculator/blob/master/LICENSE.txt
+###
+
 window.plugins.calculator =
   emit: (div, item) ->
     item.data = (field for field of wiki.getData())
@@ -24,4 +31,3 @@ calculate = (item) ->
       (x/1).toFixed 2
     sum = 0 if line.match /^\s*$/
     col.join ' '
-
