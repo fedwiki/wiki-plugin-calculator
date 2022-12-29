@@ -13,7 +13,7 @@ window.plugins.calculator =
     pre = $('<pre style="font-size: 16px;"/>').text text
     div.append pre
   bind: (div, item) ->
-    div.dblclick -> wiki.textEditor div, item
+    div.on 'dblclick', () -> wiki.textEditor div, item
 
 calculate = (item) ->
   sum = 0
