@@ -8,7 +8,6 @@
 window.plugins.calculator =
   emit: (div, item) ->
     item.data = (field for field of wiki.getData())
-    wiki.log 'calculator', item
     text = calculate(item).join "\n"
     pre = $('<pre style="font-size: 16px;"/>').text text
     div.append pre
