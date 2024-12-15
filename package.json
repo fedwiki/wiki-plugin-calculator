@@ -13,27 +13,22 @@
     "url": "http://ward.fed.wiki.org"
   },
   "contributors": [
-    {
-      "name": "Nick Niemeir",
-      "email": "nick.niemeir@gmail.com",
-      "url": "http://nrn.io"
-    },
-    {
-      "name": "Paul Rodwell",
-      "email": "paul.rodwell@btinternet.com",
-      "url": "http://wiki-paul90.rhcloud.com"
-    }
+    "Ward Cunningham <ward@c2.com>",
+    "Nick Niemeir <nick.niemeir@gmail.com>",
+    "Paul Rodwell <paul.rodwell@btinternet.com>"
   ],
   "scripts": {
+    "build": "npm run clean; node scripts/build-client.js",
+    "clean": "rm client/calculator.js client/calculator.js.map",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "@babel/core": "^7.23.2",
-    "@babel/preset-env": "^7.23.2",
-    "grunt": "^1.0.4",
-    "grunt-contrib-coffee": "^2.1.0",
-    "grunt-contrib-watch": "^1.1.0",
-    "grunt-git-authors": "^3.2.0"
+    "@eslint/js": "^9.17.0",
+    "esbuild": "^0.24.0",
+    "eslint": "^9.17.0",
+    "globals": "^15.13.0",
+    "grunt-git-authors": "^3.2.0",
+    "prettier": "^3.4.2"
   },
   "license": "MIT",
   "repository": {
@@ -43,7 +38,8 @@
   "bugs": {
     "url": "https://github.com/fedwiki/wiki-plugin-calculator/issues"
   },
+  "type": "module",
   "engines": {
-    "node": ">=0.10"
+    "node": ">=18"
   }
 }
